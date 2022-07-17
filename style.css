@@ -1,0 +1,192 @@
+img{
+    max-width: 100%;
+}
+@keyframes slider{
+    0%{
+        background: url(./img/1.jpg) no-repeat center top/ 100%;
+    }
+    20%{
+        background: url(./img/2.jpg) no-repeat center top/ 100%;
+    }
+    40%{
+        background: url(./img/3.jpg) no-repeat center top/ 100%;
+    }
+    70%{
+        background: url(./img/4.jpg)  no-repeat center top/ 100%;
+    }
+    100%{
+        background: url(./img/5.jpg)  no-repeat center top/ 100%;
+    }
+
+}
+.slider {
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+
+    animation-name: slider;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+.slider .opacity{
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100%;
+    height: 800px;
+
+
+
+}
+.slider .slider-header {
+    padding-top: 15%;
+    width: 50%;
+    margin: auto;
+
+}
+
+.slider .slider-header button {
+    padding: 11px 0px 13px 0px;
+    border: none;
+    outline: 0;
+}
+
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+
+.form{
+    width: 49%;
+    text-align: center;
+    border: 0px;
+    border-bottom: 2px solid rgb(234, 234, 234);
+    margin-bottom: 20px;
+
+}
+
+.donate{
+
+    width: 50%;
+    margin: auto;
+}
+
+.donate-title {
+    margin-top: 130px;
+}
+.amount-box{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.amount .row div{
+    text-align: center;
+    padding: 50px 20px;
+    margin: 15px;
+    background-color: rgb(234, 234, 234);
+}
+
+.donate div{
+    display: inline-block;
+    padding: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto !important;
+}
+
+.donate-plan .container .row div{
+
+    padding: 40px;
+
+    background-color: rgb(227, 255, 223);
+}
+.element {
+    padding-top: 10em;
+}
+.box {
+    margin: 40px auto 80px;
+    height: 150px;
+    border-radius: 10px;
+    background: rgb(218, 186, 212);
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    width: 50%;
+    border: 3px solid green;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.overlap1 {
+    align-items: center;
+    background-color:blanchedalmond;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    height: 48px;
+    min-width: 275px;
+    padding: 0 17px;
+}
+.email {
+    align-items: center;
+    color:black;
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+.overlap {
+    align-items: center;
+    background-color:orangered;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    height: 48px;
+    min-width: 157px;
+    padding: 0 42px;
+}
+.subscribe {
+    align-items: center;
+    color: black;
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+.footer1 {
+    margin: 40px auto 80px;
+    height: 150px;
+    background: #0b0d17;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ 
+}
+.my-wish {
+    color: blanchedalmond;
+    font-family: var(--font-family-lobster);
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+.my-wish1 {
+    color: blanchedalmond;
+    font-family: var(--font-family-lobster);
+    font-size: 18px;
+    text-align: center;
+}
